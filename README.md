@@ -22,7 +22,8 @@
 #### 重课的处理办法
 
 1. 从附表（td2）读取课程 ID（比如 计1R1），教师姓名，然后到教师课表获取这门课的信息，而非到学生课表获取。但是这样需要知道教师 ID。
-2. 从 teachID 入手。在浏览器登录账号后，打开这个网址：http://202.115.133.173:805/Classroom/ProductionSchedule/TeachClassScheduled.aspx?TeachID=189493。这个网址是某一个课程单独的表格，不会重课。但是，如何得到 TeachID 是个难点。也许可以参考一下 [CDUT 教务处选课 | GitHub](https://github.com/zaxtyson/CDUT_SelectCourse) 是如何得到 TeachID 的？
+2. 从 teachID 入手。在浏览器登录账号后，打开这个网址：http://202.115.133.173:805/Classroom/ProductionSchedule/TeachClassScheduled.aspx?TeachID=189493
+。这个网址是某一个课程单独的表格，不会重课。但是，如何得到 TeachID 是个难点。也许可以参考一下 [CDUT 教务处选课 | GitHub](https://github.com/zaxtyson/CDUT_SelectCourse) 是如何得到 TeachID 的？
 
 
 
